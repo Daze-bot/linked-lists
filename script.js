@@ -1,8 +1,3 @@
-import { Node } from "./Node.js";
+import { LinkedList } from './LinkedList.js';
 
-let node1 = new Node('A');
-let node2 = new Node('B');
-
-node1.next = node2;
-
-console.log(node1.next);
+let testList = new LinkedList;
